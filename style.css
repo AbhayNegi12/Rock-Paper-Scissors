@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.p1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.icon {
+  height: 115px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  background: white;
+  border: 20px solid white;
+  border-radius: 100px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.js-para1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.js-para{
+  margin-top: 60px;
+  text-align: center;
+}
+.js-para2, img {
+  border-radius: 50%;
+  text-align: center;
+}
+.rb {
+  background: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 20px;
+  margin: 20px auto;
+  display: block;
+}
+@media (max-width: 600px) {
+  .p1 {
+    font-size: 30px;
+  }
+  .icon {
+    height: 80px;
+  }
+  .button {
+    padding: 5px;
+    border: 10px solid white;
+  }
+  .js-para1, .js-para2, .js-para {
+    font-size: 20px;
+  }
+  .rb {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
